@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  ImprovedLocalization
+
+  Created by Anoop M on 2020-02-15.
+  Copyright © 2020 Anoop M. All rights reserved.
+*/
+"General.OK" = "Ok -fr";
+"General.Cancel" = "Cancel -fr";
+"StartUP.ScoreMessage" = "You have a score of: %d -fr";
+"StartUP.WelcomeMessage" = "Hello, Welcome to the App -fr";
+"StartUP.ContinueMessage" = "Do you wish to continue ? -fr";
+"StartUP.GeneratedMessage" = "This is a generated text -fr";

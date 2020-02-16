@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  ImprovedLocalization
+
+  Created by Anoop M on 2020-02-15.
+  Copyright © 2020 Anoop M. All rights reserved.
+*/
+
+// Storyboard supported keys
+// These are keys also used in storyboards as IBInspectables, so for any key change make sure
+// Storyboards are also taken care
+"General.OK" = "Ok";
+"General.Cancel" = "Cancel";
+"StartUP.WelcomeMessage" = "Hello, Welcome to the App";
+"StartUP.ContinueMessage" = "Do you wish to continue ?";
+
+// General keys
+"StartUP.ScoreMessage" = "You have a score of: %d";
+"StartUP.GeneratedMessage" = "This is a generated text";

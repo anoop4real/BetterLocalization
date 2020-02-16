@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ImprovedLocalization" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, Welcome to the App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNF-ak-9TN">
+                                <rect key="frame" x="105" y="129" width="204" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="W4J-6R-0tS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="translationKey" value="StartUP.WelcomeMessage"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have a score of " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yOj-jx-OQQ">
+                                <rect key="frame" x="105" y="239" width="154" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="PPn-SU-ljK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Do you wish to continue ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTR-fD-Le6">
+                                <rect key="frame" x="84" y="344" width="197" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="translationKey" value="StartUP.ContinueMessage"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="upperCased" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsy-VW-T4P">
+                                <rect key="frame" x="60" y="547" width="84" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="4Bx-87-xZq"/>
+                                </constraints>
+                                <state key="normal" title="OK"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="translationKey" value="General.OK"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="upperCased" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h85-aW-FfK">
+                                <rect key="frame" x="280" y="547" width="84" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="Tez-OK-8r1"/>
+                                </constraints>
+                                <state key="normal" title="CANCEL"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="translationKey" value="General.Cancel"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="upperCased" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="This is a generated text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLa-Pw-Ow1">
+                                <rect key="frame" x="93" y="438" width="179" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BLa-Pw-Ow1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1t5-p9-fMl"/>
+                            <constraint firstItem="BLa-Pw-Ow1" firstAttribute="top" secondItem="xTR-fD-Le6" secondAttribute="bottom" constant="73" id="3aM-hw-zcY"/>
+                            <constraint firstItem="gsy-VW-T4P" firstAttribute="top" secondItem="h85-aW-FfK" secondAttribute="top" id="45w-H4-xUW"/>
+                            <constraint firstItem="yOj-jx-OQQ" firstAttribute="leading" secondItem="xTR-fD-Le6" secondAttribute="leading" constant="21" id="7ka-ev-eoq"/>
+                            <constraint firstItem="gsy-VW-T4P" firstAttribute="baseline" secondItem="h85-aW-FfK" secondAttribute="firstBaseline" id="CNd-H6-hYl"/>
+                            <constraint firstItem="DNF-ak-9TN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GBe-TF-yMy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h85-aW-FfK" secondAttribute="trailing" constant="50" id="IYd-nm-Po1"/>
+                            <constraint firstItem="xTR-fD-Le6" firstAttribute="leading" secondItem="BLa-Pw-Ow1" secondAttribute="leading" constant="-9" id="JOr-LR-UA3"/>
+                            <constraint firstItem="gsy-VW-T4P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="Kzu-lj-KXU"/>
+                            <constraint firstItem="xTR-fD-Le6" firstAttribute="top" secondItem="yOj-jx-OQQ" secondAttribute="bottom" constant="84" id="VWM-nd-vWd"/>
+                            <constraint firstItem="DNF-ak-9TN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="85" id="XgR-y9-IiI"/>
+                            <constraint firstItem="gsy-VW-T4P" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="503" id="aiD-9f-Ihh"/>
+                            <constraint firstItem="DNF-ak-9TN" firstAttribute="leading" secondItem="yOj-jx-OQQ" secondAttribute="leading" id="eUY-76-c9C"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BLa-Pw-Ow1" secondAttribute="bottom" constant="403" id="fEm-RI-44l"/>
+                            <constraint firstItem="yOj-jx-OQQ" firstAttribute="top" secondItem="DNF-ak-9TN" secondAttribute="bottom" constant="89" id="k7l-Hy-5Zf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gsy-VW-T4P" secondAttribute="bottom" constant="272" id="vlc-KH-pei"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="generatedLabel" destination="BLa-Pw-Ow1" id="opm-eW-499"/>
+                        <outlet property="scoreLabel" destination="yOj-jx-OQQ" id="rEs-RP-O7I"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="117.85714285714285"/>
+        </scene>
+    </scenes>
+</document>
